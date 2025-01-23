@@ -115,7 +115,7 @@ st.write("---")
 # import numpy as np
 # import pandas as pd 
 
-# @st.cache
+# @st.cache_data
 # def load_your_data():
 #     np.random.seed(1)
 #     df = pd.DataFrame(data={"Col1":np.random.randint(low=-100,high=100,size=10),
@@ -193,7 +193,7 @@ st.write("---")
 #### you will define the content on each variable with the command "with:"
 #### this example prints a list in the first column and display a widget in the second column
 
-# col1, col2 = st.beta_columns(2)
+# col1, col2 = st.columns(2)
 # with col1:
 #     st.write([1,2,3])
 # with col2:
